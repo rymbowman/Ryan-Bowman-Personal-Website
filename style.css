@@ -1,0 +1,196 @@
+body {
+    background-image: url("./Images/gravel.webp");
+}
+
+.home-logo-button {
+    display: flex;
+    border: 2px solid navy;
+    border-radius: 100%;
+    color: navy;
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    padding-top: 5px;
+    padding-right: 7px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: navy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.album {
+    display: flex;
+    width: 350px;
+    margin: auto;
+}  
+
+button {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    padding: 5px;
+    border-color: blue;
+    border-radius: 10%;
+}
+
+.card-body {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.page-heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.profile-img {
+    display: block;
+    height: 90%;
+    width: 90%;
+    border-radius: 100%;
+    border-top: 0px;
+    margin: auto;
+    border: 2px solid navy;
+}
+
+.footer {
+    display: flex;
+    flex: column;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+    border-top: 2px solid navy;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px 50px;
+    justify-content: space-evenly;
+    padding: 100px
+}
+
+.form-container {
+    color: navy;
+    background-color: lightgrey;
+    width: 50%;
+    margin: 50px auto;
+    padding: 15px;
+}
+
+.form {
+    width: 75%;
+    margin: auto;
+}
+
+.form-item {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px;
+}
+
+#btn-contact {
+    background-color: navy;
+    color: white;
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0;
+}
+
+#main-container-home {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#row-container-home {
+    margin: auto;
+}
+
+#col-container-home {
+   text-align: center;
+}
+
+.lead {
+    text-align: center;
+}
+
+.btn {
+   background-color: navy;
+}
+
+.about-container {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    margin: 50px 100px;
+}
+
+.slideshow-images-container {
+  width: 30%;
+  float: left;
+}
+
+.mySlides {
+    padding: 5px;
+}
+
+/* Number text (1/7 etc) */
+.img-carousel {
+  width: 90%;
+  height: 90%;
+  
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@keyframes fade {
+  from {opacity: .6}
+  to {opacity: 1}
+}
+
+#about-main-header {
+    text-align: center;
+}
+
+.about-content {
+font-size: 20px;
+}
+
+.row {
+    width: 90%;
+}
+
+#first-name {
+    width: 95%;
+}
+
+#last-name {
+    width: 95%;
+    margin-left: 5%;
+}
+
+.row-form {
+display: flex;
+}

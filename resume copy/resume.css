@@ -1,0 +1,177 @@
+
+.container-side {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #163853;
+    float: left;
+    width: 25%;;
+    margin-left: 12.5%;
+    margin-bottom: 10px;
+}
+
+.container-main {
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    width: 50%;
+    margin-right: 12.5%;
+    background-color: beige;
+    margin-bottom: 10px;
+}
+
+.profile-img {
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.side-container-header-1:after {
+    content: "Contact";
+    color: white;
+    display: block;
+    margin-left: 10%;
+    width: 70%;
+    border-bottom: 1px solid white;
+}
+
+.side-container-header-2:after {
+    content: "Projects";
+    color: white;
+    display: block;
+    margin-left: 10%;
+    width: 70%;
+    border-bottom: 1px solid white;
+}
+
+.side-container-header-3:after {
+    content: "Education";
+    color: white;
+    display: block;
+    margin-left: 10%;
+    width: 70%;
+    border-bottom: 1px solid white;
+}
+
+.side-container-header-4:after {
+    content: "Skills";
+    color: white;
+    display: block;
+    margin-left: 10%;
+    width: 70%;
+    border-bottom: 1px solid white;
+}
+
+.contact {
+    color: white;
+    margin-left: 15px;
+}
+.contact-list {
+    margin-left: 5%;
+    list-style: none;
+}
+.projects {
+    color: white;
+    margin-left: 15px;
+}
+.projects-list {
+    margin-left: 5%;
+    list-style: circle;
+}
+
+.education {
+    color: white;
+    margin-left: 15px;
+}
+
+.education-info {
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+.education-list {
+    display: block;
+    color: white;
+    list-style: circle;
+    margin-left: 5%;
+    margin-right: 15%
+
+}
+.skills {
+    color: white;
+    list-style: none;
+    margin-left: 15px;
+}
+
+.skills-list {
+    display: block;
+    list-style: circle;
+    margin-left: 5%;
+    padding-bottom: 15%;
+}
+
+.links {
+    color: white;
+}
+
+
+.title {
+    padding-top: 15px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.heading-titles {
+    margin-left: 10%;
+    border-bottom: 1px solid black;
+    width: 80%;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.work-info-list {
+display: grid;
+grid-template-columns: 1fr 1fr;
+list-style: none;
+margin-left: 10%;
+margin-right: 10%;
+}
+.work-info-grid-item-1 {
+    list-style: none;
+}
+
+.work-info-grid-item-2 {
+    text-align: right;
+}
+
+.tech-skills-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10%;
+    width: 80%;
+    column-gap: 10px;
+    padding-bottom: 5%;
+}
+
+.grid-item {
+    list-style: circle;
+    text-align: left;
+}
+
+.profile-content {
+    margin-left: 15%;
+    width: 70%;
+}
+.work-experience-content {
+    margin-left: 15%;
+    width: 70%;
+}
+
+.work-description {
+    list-style: circle;
+    margin-left: 15%;
+    width: 70%;
+}
+
