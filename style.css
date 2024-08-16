@@ -1,5 +1,5 @@
 body {
-    background-image: url("./Images/gravel.webp");
+    background-color: whitesmoke;
 }
 
 .home-logo-button {
@@ -21,7 +21,7 @@ a {
 
 .nav-link {
     color: navy;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-size: larger;
 }
 
@@ -112,9 +112,7 @@ button {
 }
 
 #main-container-home {
-    font-family: "Bona Nova SC", serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Nunito Sans", sans-serif;
 }
 
 #row-container-home {
@@ -134,9 +132,7 @@ button {
 }
 
 .about-container {
-    font-family: "Bona Nova SC", serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Nunito Sans", sans-serif;
     text-align: justify;
     margin: 50px 100px;
 }

@@ -60,8 +60,6 @@
 
       <h3 class="about-headers"><strong>What's Next?</strong></h3>
       <p class="about-content">I am eager to apply my skills in software development, contribute to meaningful projects, and continue growing in this dynamic field. Thank you for visiting my portfolio. I look forward to sharing my journey with you and building new connections!</p>
-     
-    
 </div>
 <br>
       <div class="footer">
@@ -84,7 +82,6 @@
 <script>
 let slideIndex = 0;
 showSlides();
-
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
@@ -92,11 +89,11 @@ function showSlides() {
     slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
+  if (slideIndex > slides.length) {slideIndex = 0}
   slides[slideIndex-1].style.display = "flex";
   setTimeout(showSlides, 5000); // Change image every 2 seconds
-}
 
+}
   document.getElementById("copyright").innerHTML= "©" + " " + new Date().getFullYear();
 </script>
 </html>
